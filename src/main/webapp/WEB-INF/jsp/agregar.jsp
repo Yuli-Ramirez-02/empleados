@@ -6,7 +6,7 @@
         <h3>Agregar Empleado</h3>
     </div>
 
-    <form action="/empleados/agregar" modelAtrribute="empleadoForma" method="post">
+    <form action="${urlAgregar}" modelAtrribute="empleadoForma" method="post">
         <div class="mb-3">
             <label for="nombre" class="form-label">Nombre</label>
             <input type="text" class="form-control" id="nombre" name="nombre" required="true">
